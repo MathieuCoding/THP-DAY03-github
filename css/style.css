@@ -1,0 +1,154 @@
+body {
+    font-family: arial,sans-serif;
+    margin: auto;
+    padding: auto;
+    height: 100%;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+.link-header {
+    margin: 10px;
+    font-family: Arial, "Sans serif";
+    font-size: 13px;
+    color: #000000DE;
+}
+.menu {
+    margin: 8px;
+    height: 50%;
+}
+.login {
+    background-color: #2b5af3;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 118px;
+    height: 35px;
+    color: aliceblue;
+    margin: 0px 8px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}  
+.footer {
+    font-size: 14px;
+    color: #70757a;
+    background-color: #eeeeee;
+    line-height: 38px;
+    font-family: Arial, "Sans serif";
+    padding: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+
+
+}
+.footer a {
+    color: #70757a;
+}
+.carbone {
+    display: flex;
+    justify-content: center;
+}
+.footer-t {
+    margin-left: 30px;
+    font-size: 15px;
+}
+.footer-tb {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 30px;
+    
+}
+.footer-b {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 30px;
+    
+}
+.search-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 30px;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logosearch {
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+.logosearch img {
+    width: 25px;
+}
+.microphone {
+    position: relative;
+    right: 40px;
+    top: 5px;
+}
+.microphone img {
+    width: 35px;
+}
+.search {
+    background-color: transparent;
+    width: 582px;
+    height: 44px;
+    border-radius: 60px;
+    border-width: 0.01px;
+    outline: none;
+}
+.search:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.button-1 {
+    margin: 20px;
+    border: none;
+}
+.button-1 a {
+    text-decoration: none;
+}
+.button-2 {
+    margin: 20px;
+    border: none;
+}
+.button-2 a {
+    text-decoration: none;
+}
+.google-big {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    text-decoration: underline;
+}
+.button-1 a:hover {
+    text-decoration: none;
+    border:#000000 1px solid;
+}
+.button-2 a:hover {
+    text-decoration: none;
+    border:#000000 1px solid;
+}
